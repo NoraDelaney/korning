@@ -1,0 +1,29 @@
+Notes from Richard's live code:
+
+Schema should have tables
+
+CREATE TABLE employees(
+id SERIAL PRIMARY KEY,
+first_name VARCHAR(255),
+last_name VARCHAR (255),
+email VARCHAR NOT NULL UNIQUE
+);
+
+CREATE TABLE customers
+id SERIAL PRIMARY KEY,
+name VARCHAR
+account)number VARCHAR
+);
+
+products:
+name
+
+invoices:
+sale_amount FLOAT
+invoice_number INTEGER
+sale_date DATE
+units_sold INTEGER
+customer_id INTEGER
+employee_id INTEGER
+product_id INTEGER
+invoice_frequency VARCHAR
